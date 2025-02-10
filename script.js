@@ -15,7 +15,7 @@ UVvalue =document.getElementById("UVvalue"),
 Pvalue =document.getElementById("Pvalue"),
 forecast =document.querySelector(".forecast");
 
-WEATHER_API_ENDPOINT=`https://api.openweathermap.org/data/2.5/weather?&appid=20d0848897a8f04aaf45ed41d3495187&units=metric&q=`;
+WEATHER_API_ENDPOINT=`https://api.openweathermap.org/data/2.5/weather?&appid=<YOUR-API-KEY>&units=metric&q=`;
 
 
 function findUserLocation() {
